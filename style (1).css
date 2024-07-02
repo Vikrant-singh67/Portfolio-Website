@@ -1,0 +1,233 @@
+* {
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-family: 'Lora', serif;
+}
+
+body {
+    background-color: rgb(6, 0, 52);
+}
+
+nav{
+    background-color: rgb(1, 1, 79);
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav ul{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+nav ul li {
+    margin: 0 30px;
+}
+
+nav ul li a:hover{
+    
+    color: rgb(86, 86, 228);
+}
+
+#left {
+    font-size: 35px;
+    color: orange;
+    -webkit-text-stroke: 1px rgb(203, 81, 0);
+}
+
+section {
+    margin-top: 30px;
+    display: flex;
+    font-size: 2.3rem;
+    justify-content: space-around;
+}
+
+#lef {
+    margin: 60px 0;
+    height: 150px;
+}
+
+#lef div span{
+    color: rgb(216, 7, 7);
+    font-size: 2.7rem;
+}
+
+button{
+    background-color: aqua;
+    color: black;
+}
+
+#col{
+    color: aqua;
+    font-size: 3.2rem;
+}
+
+nav ul li a {
+    font-size: 17px;
+    text-decoration: none;
+}
+
+footer {
+    background-color: #04011b;
+    color: #fff;
+    text-align: center;
+    padding: 0.8rem;
+}
+button{
+    border-radius: 9px;
+    border-color:#007bff ;
+    border: 2px solid white;
+    font-size: 1.2rem;
+    margin: 25px 0;
+}
+
+button a{
+   text-decoration: none;
+   background-color: #007bff;
+   border-radius: 7px;
+}
+
+button a:hover {
+    background-color: #3b82ce;
+    text-decoration: none;
+    font-size: 1.22rem;
+} 
+
+hr.blue-hr {
+    border: none;
+    height: 1px;
+    background-color: blue;
+    margin: 10px 0;
+}
+
+#experience {
+    border: 1px solid white;
+    background-color: #469dfa;
+    border-radius: 15px;
+    border-width: 3px;
+    font-size: 40px;
+    font-size: 32px;
+    margin: 20px 10px;
+}
+
+#ex {
+    text-align: center;
+}
+
+h3 {
+    font-size: 23px;
+    margin-bottom: 2px;
+}
+
+#du {
+    font-size: 19px;
+    margin-bottom: 7px;
+}
+
+#par{
+    font-size: 17px;
+}
+
+#work {
+    font-size: 20px;
+    margin: 20px 10px;
+}
+
+#skills {
+    border: 1px solid white;
+    background-color: #469dfa;
+    border-radius: 15px;
+    border-width: 3px;
+    font-size: 40px;
+    
+    margin: 20px 10px;
+    text-align: center;
+}
+
+.skills-list {
+    list-style: circle;        }
+
+.skills-list li {
+    margin: 10px 30px;
+    font-size: 20px;
+}
+
+#education {
+    border: 1px solid white;
+    background-color: #469dfa;
+    border-radius: 15px;
+    border-width: 3px;
+    font-size: 30px;
+    margin: 20px 10px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.education-list {
+    list-style: none;
+    margin: 10px 30px;
+    
+}
+
+.education-list li {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.education-list h3 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.education-list p {
+    margin: 5px 0;
+}
+
+#about-me {
+    border: 1px solid white;
+    background-color: #469dfa;
+    border-radius: 15px;
+    border-width: 3px;
+    font-size: 30px;
+    margin: 20px 10px;
+   text-align: center;
+    margin-bottom: 17px;
+}
+
+.me {
+    margin: 10px 20px;
+    font-size: 16px;
+}
+
+.contact-me {
+    margin-top: 40px;
+    text-align: center;
+}
+
+.contact-me p {
+    margin-bottom: 20px;
+}
+
+.contact-me a {
+    font-size: 20px;
+    display: inline-block;
+    background-color: #007bff;
+    padding: 8px 17px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+#sy a{
+    padding: 20px;
+    background-color: #007bff;
+    font-size: 22px;
+    width: 25px;
+    margin-bottom: 15px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+  }
